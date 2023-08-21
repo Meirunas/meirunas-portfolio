@@ -1,0 +1,230 @@
+body {
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+a {
+  color: #2c98f0;
+}
+
+p {
+  margin-bottom: 1.5em;
+  color: #000;
+}
+
+h2 {
+  color: #000;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 200;
+  margin: 0 0 20px 0;
+}
+h3 {
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 0 0 0px 0;
+}
+
+#colorlib-page {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#colorlib-aside {
+  padding-top: 3em;
+  padding-bottom: 1px;
+  float: left;
+  width: 300px;
+  position: fixed;
+  z-index: 1001;
+  background: orangered;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+  #colorlib-aside {
+    width: 300px;
+    -moz-transform: translateX(-300px);
+    -webkit-transform: translateX(-300px);
+    -ms-transform: translateX(-300px);
+    -o-transform: translateX(-300px);
+    transform: translateX(-300px);
+    padding-top: 4em;
+  }
+}
+
+#colorlib-aside .author-img {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.container-wrap {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+#colorlib-main {
+  width: calc(100% - 300px);
+  float: right;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+  #colorlib-main {
+    width: 100%;
+    padding: 0 1em;
+  }
+}
+
+.colorlib-narrow-content {
+  padding: 0 2.5em;
+}
+
+@media screen and (max-width: 878px) {
+  .colorlib-narrow-content {
+    padding: 0 1em;
+  }
+}
+
+.no-gutters {
+  margin: 0;
+  padding: 0;
+}
+
+.colorlib-experience,
+.colorlib-skills,
+.colorlib-education,
+.colorlib-blog,
+.colorlib-work,
+.colorlib-about,
+.colorlib-installation,
+.colorlib-services,
+.colorlib-contact {
+  padding-top: 2em;
+  padding-bottom: 0em;
+  clear: both;
+  width: 100%;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .colorlib-experience,
+  .colorlib-skills,
+  .colorlib-education,
+  .colorlib-blog,
+  .colorlib-work,
+  .colorlib-about,
+  .colorlib-installation,
+  .colorlib-services,
+  .colorlib-contact {
+    padding-top: 2em;
+    padding-bottom: 0em;
+  }
+}
+
+.author-img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.colorlib-heading {
+  font-size: 18px;
+  margin-bottom: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  position: relative;
+}
+
+.colorlib-heading span {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .colorlib-heading {
+    margin-bottom: 2em;
+  }
+}
+
+#projects h2 {
+  color: #374054;
+  margin-bottom: 50px;
+}
+
+.project {
+  margin: 0 auto 30px auto;
+  overflow: hidden;
+}
+
+.project-image img {
+  width: 730px;
+  height: 355px;
+}
+
+.project-image p {
+  margin-top: 10px;
+}
+
+.project-info {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 15px;
+  margin-left: 30%;
+  width: 50%;
+}
+
+.no-image .project-info {
+  position: relative;
+  margin: 0;
+  padding: 30px 15px;
+  transform: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .project-image {
+    width: auto;
+  }
+  .project-image img {
+    width: 390px;
+    height: 200px;
+  }
+  .project-image h3 {
+    text-align: center;
+  }
+}
+
+.u-colour-black {
+  color: #000;
+}
+
+.js .animate-box {
+  opacity: 0;
+}
+
+.container,
+.colorlib-narrow-content {
+  padding-left: 5rem;
+}
+
+#projects {
+  margin-top: 14px;
+}
